@@ -1,0 +1,21 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Gestion de dtos en trnscciones distribuids",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "SecureTrade-Backend"
+  },
+  "keywords": [
+    "["
+  ],
+  "author": "ss\",",
+  "license": "ISC"
+}
