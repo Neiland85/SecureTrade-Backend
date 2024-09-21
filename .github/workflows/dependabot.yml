@@ -1,6 +1,10 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/" # Directorio donde está el archivo requirements.txt o pyproject.toml
     schedule:
-      interval: "weekly" 
+      interval: "daily" # Puede ser daily, weekly, o monthly
+    commit-message:
+      prefix: "deps"
+    open-pull-requests-limit: 10
+
